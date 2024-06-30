@@ -97,7 +97,7 @@ const (
 	CFG_SUBPHISHLETS = "subphishlets"
 )
 
-const DEFAULT_UNAUTH_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" // Rick'roll
+const DEFAULT_UNAUTH_URL = "https://www.azure.com" // Rick'roll
 
 func NewConfig(cfg_dir string, path string) (*Config, error) {
 	c := &Config{
